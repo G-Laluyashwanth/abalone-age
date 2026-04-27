@@ -5,5 +5,10 @@ __pycache__/
 .DS_Store
 venv/
 .venv/
+env/
 .vscode/
 .idea/
+
+# Allow .gitkeep placeholders to preserve folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
