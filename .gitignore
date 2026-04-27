@@ -12,3 +12,7 @@ env/
 # Allow .gitkeep placeholders to preserve folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Trained models — too large for Git
+weights/*.joblib
+weights/*.pkl
